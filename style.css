@@ -56,7 +56,7 @@ button {
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
-    background-color: #333;
+    background-color: #e0d5d5;
     border-radius: 20px;
 
 }
@@ -104,5 +104,13 @@ footer {
     padding: 20px;
     border-radius: 15px;
     width: 80%;
+    backdrop-filter: blur(10px);
+}
+.projetos {
+    background-color: rgba(38, 25, 228, 0.397);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
     backdrop-filter: blur(10px);
 }
