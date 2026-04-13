@@ -1,5 +1,108 @@
-body{ background-color: rgb(143, 83, 116);}
-h1{ color: rgb(131, 3, 3); text-align: center; font-family: Arial, Helvetica, sans-serif;}
-p{ color: rgb(255, 255, 255); text-align: center; font-family: Arial, Helvetica, sans-serif;}
-h2{ color: rgb(139, 5, 5); text-align: center; font-family: Arial, Helvetica, sans-serif;}
-ul{ color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;}
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+body {
+font-family: Arial, sans-serif;
+background-color: #154d97;
+color: #ffffff;
+text-align: center;
+}
+
+header {
+background-color: #1518a7;
+color: white;
+padding: 15px;
+font-size: 20px;
+}
+nav ul li {
+display: inline; 
+margin: 0 15px;
+}
+nav a {color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: bold;
+}
+nav a :hover {color: #ddd;
+}
+section {padding: 40px;
+    text-align: center;
+    font-style: oblique;
+}
+.perfil {
+margin: 1px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    width: 280px;
+    height: 280px;
+}
+.perfil h2 {
+    margin-top: 10px;
+}
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    border-radius: 20px;
+
+}
+
+button  {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #f8afaf;
+    color: #f8afaf;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+button:hover {
+    background: #333;
+    transform: scale(1.1);
+    box-shadow: #0957be 0px 0px 15px;
+
+}
+footer {
+    background-color: #23219e;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.card {
+    background-color: rgba(38, 25, 228, 0.397);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.sobre {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    backdrop-filter: blur(10px);
+}
